@@ -21,9 +21,10 @@ void cvec_resize(c_vector* vec, int newCap);
 void cvec_clear(c_vector* vec);
 
 void cvec_set(c_vector* vec, int index, void* data);
-void cvec_get(c_vector* vec, int index);
+void* cvec_get(c_vector* vec, int index);
 
 void cvec_push_back(c_vector* vec, void* data);
-void cvec_delete(c_vector* vec, int index);
+void* cvec_pop_back(c_vector* vec);
+void cvec_del_el(c_vector* vec, int index);
 
 #endif /* CVECTOR_H_ */

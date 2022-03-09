@@ -140,8 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="c_vector.cpp" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="c_map.c" />
+    <ClCompile Include="c_vector.c" />
+    <ClCompile Include="Source.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c_map.h" />
